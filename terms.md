@@ -2,6 +2,8 @@
   * path
   * hierarchy
   * query string
+* convention over configuration
+  * [Ember philosophy](http://www.ember-cli.com/#addon-conventions)
 * template
   * block
     * template inside of a block
