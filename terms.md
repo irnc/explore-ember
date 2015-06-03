@@ -87,6 +87,8 @@
   * [Engines RFC](https://github.com/tomdale/rfcs/blob/master/active/0000-engines.md)
 * resolver
   * https://github.com/ember-cli/ember-resolver
+* ember-testing
+  * [introduced in RC3][1.0-rc4] (1.0 RC3)
 
 [query-params]: http://guides.emberjs.com/v1.10.0/routing/query-params/
 [run-up-to-two]: http://emberjs.com/blog/2015/05/10/run-up-to-two-oh.html
