@@ -6,6 +6,8 @@
   * [Ember philosophy](http://www.ember-cli.com/#addon-conventions)
 * ember-cli
   * https://github.com/ember-cli/ember-cli
+* application
+  * [Registry](https://github.com/emberjs/ember.js/pull/9981)
 * template
   * block
     * template inside of a block
