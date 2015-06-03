@@ -11,6 +11,7 @@
 * Ember.Object
   * computed property
     * [improved syntax for computed propeties with a setter](http://emberjs.com/deprecations/v1.x/#toc_computed-properties-with-a-shared-getter-and-setter)
+    * computed property's descriptor
 * template
   * block
     * template inside of a block
