@@ -44,6 +44,8 @@
       * e.g. replace=true option on link-to helper
 * components
   * [angle bracket components][another-two] is likely to land in Ember 2.1
+    * also named "angle-bracket components"
+    * [implemented in v1.13.0-beta.1](https://github.com/emberjs/ember.js/releases/tag/v1.13.0-beta.1)
   * attributes  
     * [`this.attrs`][run-up-to-two] beginning with angle-bracket components
   * lifecycle hooks
