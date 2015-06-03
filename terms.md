@@ -73,6 +73,7 @@
   * hooks
     * [`model`][query-params]
     * [`setupController`][query-params]
+      * [landed in 1.0 RC4][1.0-rc4] (May 28, 2013)
 * dependency injection
   * [services][run-up-to-two] landed in 1.10
   * [injected properties][ember-1.10.0] landed in 1.10
@@ -91,3 +92,4 @@
 [run-up-to-two]: http://emberjs.com/blog/2015/05/10/run-up-to-two-oh.html
 [another-two]: http://emberjs.com/blog/2015/05/24/another-two-oh-status-update.html
 [ember-1.10.0]: http://emberjs.com/blog/2015/02/07/ember-1-10-0-released.html
+[1.0-rc4]: http://emberjs.com/blog/2013/05/28/ember-1-0-rc4.html
