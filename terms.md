@@ -4,6 +4,8 @@
   * query string
 * convention over configuration
   * [Ember philosophy](http://www.ember-cli.com/#addon-conventions)
+* ember-cli
+  * https://github.com/ember-cli/ember-cli
 * template
   * block
     * template inside of a block
