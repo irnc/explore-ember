@@ -14,6 +14,10 @@
     * [improved syntax for computed propeties with a setter](http://emberjs.com/deprecations/v1.x/#toc_computed-properties-with-a-shared-getter-and-setter)
     * computed property's descriptor
   * [observers](http://guides.emberjs.com/v1.12.0/object-model/observers/)
+    * `function(){}.observes()`
+    * `Ember.observer()`
+* run loop
+  * Ember.run.once
 * template
   * block
     * template inside of a block
