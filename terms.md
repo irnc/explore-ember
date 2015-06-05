@@ -85,7 +85,8 @@
   * [services][run-up-to-two] landed in 1.10
   * [injected properties][ember-1.10.0] landed in 1.10
 * [instance initializers][run-up-to-two] landed in 1.12
-  * [initial implementation](https://github.com/emberjs/ember.js/pull/10256)
+  * [initial implementation](https://github.com/emberjs/ember.js/pull/10256), January 23, 2015
+  * [addition to ember-cli](https://github.com/ember-cli/ember-cli/issues/3159), April 2, 2015
 * [FastBoot feature][another-two]
   * early version available as addon
     * [suitable for SEO][another-two]
