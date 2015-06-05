@@ -3,5 +3,7 @@
 * Tom Dale
 * Yehuda Katz
   * https://github.com/wycats
+* Chad Hietala
+  * https://github.com/chadhietala
 
 [1.0-rc4]: http://emberjs.com/blog/2013/05/28/ember-1-0-rc4.html
