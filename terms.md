@@ -6,6 +6,8 @@
   * [Ember philosophy](http://www.ember-cli.com/#addon-conventions)
 * ember-cli
   * https://github.com/ember-cli/ember-cli
+  * options
+    * [`storeConfigInMeta`](https://github.com/ember-cli/ember-cli/pull/2298) allows to get _equality between builds where only the config changes_.
 * application
   * [Registry](https://github.com/emberjs/ember.js/pull/9981)
   * April 9, [RFC to encapsulate and make Registry private](https://github.com/emberjs/rfcs/pull/46) to Application
