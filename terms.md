@@ -108,6 +108,9 @@
 * [routeable components][run-up-to-two] are under active development, [it will probably land in 2.1 at the earliest][another-two]
   * [multiple asynchronous attributes][another-two]
   * [`attrs` hook][another-two]
+* properties
+  * `_state`
+    * `preRender`, `inDOM`
 
 ---
 
