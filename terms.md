@@ -80,6 +80,7 @@
 * [use components for everything][future-proof]
 * _data down, actions up_ paradigm
   * [stay away][future-proof] from two-way binding and mutability
+  * [paradigm described for Ember](https://gist.github.com/samselikoff/1d7300ce59d216fdaf97#comment-1340897)
 * angle bracket components [is likely to land in Ember 2.1][another-two]
   * also named "angle-bracket components"
   * [implemented in v1.13.0-beta.1](https://github.com/emberjs/ember.js/releases/tag/v1.13.0-beta.1)
