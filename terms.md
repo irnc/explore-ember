@@ -101,6 +101,7 @@
   * [implemented in v1.13.0-beta.1](https://github.com/emberjs/ember.js/releases/tag/v1.13.0-beta.1)
 * attributes  
   * [`this.attrs`][run-up-to-two] beginning with angle-bracket components
+  * was introduced to split data coming into a component and internal state modifieble by component
 * lifecycle hooks
   * `didInsertElement`
   * [`didUpdateElement`][run-up-to-two] landed in 1.13
