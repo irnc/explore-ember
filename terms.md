@@ -85,6 +85,8 @@
   * `{{#each people as |person index|}}`
 * comments
   * `{{! Comment goes here }}`
+* Glimmer rendering engine
+  * [massive performance improvement][preparing-for-2.0], landed in 1.13.0
 
 ---
 
@@ -111,6 +113,7 @@
   * `valueDidChange`
   * `disabledDidChange`
 * [routeable components][run-up-to-two] are under active development, [it will probably land in 2.1 at the earliest][another-two]
+  * aka, "routable components"
   * [multiple asynchronous attributes][another-two]
   * [`attrs` hook][another-two]
 * properties
