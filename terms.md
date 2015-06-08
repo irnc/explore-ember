@@ -47,15 +47,6 @@
     * options
       * what is the difference with arguments?
       * e.g. replace=true option on link-to helper
-* controller
-  * `Ember.Controller` should be used [only on route level][future-proof]
-    * `Ember.ArrayController` is not deprecated, but [adwised to be replaced with `Ember.Controller`][future-proof]
-    * `Ember.ArrayController.itemController` is not deprecated, but [is not future proof][future-proof]
-    * [`Ember.ObjectController` is deprecated](http://emberjs.com/deprecations/v1.x/#toc_objectcontroller)
-  * controller has a property
-  * [route-driven controllers][query-params]
-  * [`queryParams`][query-params]
-    * work to make it possible to [move query parameters fully to routes][another-two], is ongoing
 * route
   * [`controllerName`][query-params]
   * [`queryParams`][query-params]
@@ -144,9 +135,21 @@
 
 ## Deprecated
 
-* view
-  * [don't use views][future-proof]
-  * [replace views + controllers with components][future-proof]
+### controllers
+
+* `Ember.Controller` should be used [only on route level][future-proof]
+  * `Ember.ArrayController` is not deprecated, but [adwised to be replaced with `Ember.Controller`][future-proof]
+  * `Ember.ArrayController.itemController` is not deprecated, but [is not future proof][future-proof]
+  * [`Ember.ObjectController` is deprecated](http://emberjs.com/deprecations/v1.x/#toc_objectcontroller)
+* controller has a property
+* [route-driven controllers][query-params]
+* [`queryParams`][query-params]
+  * work to make it possible to [move query parameters fully to routes][another-two], is ongoing
+
+### views
+
+* [don't use views][future-proof]
+* [replace views + controllers with components][future-proof]
 
 [query-params]: http://guides.emberjs.com/v1.10.0/routing/query-params/
 [run-up-to-two]: http://emberjs.com/blog/2015/05/10/run-up-to-two-oh.html
