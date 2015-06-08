@@ -4,10 +4,6 @@
   * query string
 * convention over configuration
   * [Ember philosophy](http://www.ember-cli.com/#addon-conventions)
-* ember-cli
-  * https://github.com/ember-cli/ember-cli
-  * options
-    * [`storeConfigInMeta`](https://github.com/ember-cli/ember-cli/pull/2298) allows to get _equality between builds where only the config changes_.
 * application
   * [Registry](https://github.com/emberjs/ember.js/pull/9981)
   * April 9, [RFC to encapsulate and make Registry private](https://github.com/emberjs/rfcs/pull/46) to Application
@@ -50,6 +46,7 @@
       * what is the difference with arguments?
       * e.g. replace=true option on link-to helper
 * components
+  * [use components for everything][future-proof]
   * angle bracket components [is likely to land in Ember 2.1][another-two]
     * also named "angle-bracket components"
     * [implemented in v1.13.0-beta.1](https://github.com/emberjs/ember.js/releases/tag/v1.13.0-beta.1)
@@ -102,6 +99,14 @@
   * https://github.com/ember-cli/ember-resolver
 * ember-testing
   * [introduced in RC3][1.0-rc4] (1.0 RC3)
+
+---
+
+## ember-cli
+* https://github.com/ember-cli/ember-cli
+* always [use Ember CLI][future-proof]
+* options
+  * [`storeConfigInMeta`](https://github.com/ember-cli/ember-cli/pull/2298) allows to get _equality between builds where only the config changes_.
 
 ---
 
