@@ -5,6 +5,7 @@
   * https://github.com/wycats
 * Chad Hietala
   * https://github.com/chadhietala
+  * LinkedIn
 * Jay Phelps
   * https://github.com/jayphelps
   * Netflix, ember-cli
