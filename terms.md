@@ -123,6 +123,7 @@
 
 * view
   * [don't use views][future-proof]
+  * [replace views + controllers with components][future-proof]
 
 ---
 
