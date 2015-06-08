@@ -164,6 +164,8 @@
 * [route-driven controllers][query-params]
 * [`queryParams`][query-params]
   * work to make it possible to [move query parameters fully to routes][another-two], is ongoing
+* needs, deprecation planned in 1.12
+  * use `Ember.inject`
 
 ### views
 
