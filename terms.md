@@ -111,6 +111,18 @@
 
 ---
 
+## `Router`
+
+* [Use `this.route` instead of `this.resource` in `Router.map`][future-prrof]
+ 
+---
+
+# pods
+
+* [use pods][future-proof]
+
+---
+
 ## ember-cli
 * https://github.com/ember-cli/ember-cli
 * always [use Ember CLI][future-proof]
