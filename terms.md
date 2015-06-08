@@ -105,6 +105,13 @@
 
 ---
 
+## Deprecated
+
+* view
+  * [don't use views][future-proof]
+
+---
+
 ## ember-data
 
 * [async](http://emberjs.com/blog/2014/03/18/the-road-to-ember-data-1-0.html#toc_async-relationships)
