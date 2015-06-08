@@ -78,6 +78,8 @@
     * e.g. replace=true option on link-to helper
 * bound attribute syntax, landed in 1.11
   * now `<a href="{{url}}">` is preffered way instead of old `<a {{bind-attr href=documentUrl}}>`
+* [inline if][preparing-for-2.0]
+* [each with index][preparing-for-2.0]
 
 ---
 
@@ -168,3 +170,4 @@
 [ember-1.10.0]: http://emberjs.com/blog/2015/02/07/ember-1-10-0-released.html
 [1.0-rc4]: http://emberjs.com/blog/2013/05/28/ember-1-0-rc4.html
 [future-proof]: https://gist.github.com/samselikoff/1d7300ce59d216fdaf97
+[preparing-for-2.0]: https://www.youtube.com/watch?v=wsydQzQF4Ww
