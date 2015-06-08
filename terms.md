@@ -113,7 +113,7 @@
 
 ## `Router`
 
-* [Use `this.route` instead of `this.resource` in `Router.map`][future-prrof]
+* [Use `this.route` instead of `this.resource` in `Router.map`][future-proof]
  
 ---
 
