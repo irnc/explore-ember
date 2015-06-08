@@ -45,27 +45,6 @@
     * options
       * what is the difference with arguments?
       * e.g. replace=true option on link-to helper
-* components
-  * [use components for everything][future-proof]
-  * angle bracket components [is likely to land in Ember 2.1][another-two]
-    * also named "angle-bracket components"
-    * [implemented in v1.13.0-beta.1](https://github.com/emberjs/ember.js/releases/tag/v1.13.0-beta.1)
-  * attributes  
-    * [`this.attrs`][run-up-to-two] beginning with angle-bracket components
-  * lifecycle hooks
-    * `didInsertElement`
-    * [`didUpdateElement`][run-up-to-two] landed in 1.13
-    * [`didUpdateAttrs`][another-two] landed in 1.13
-    * [`willUpdate`][another-two] landed in 1.13
-    * [`didUpdate`][another-two] landed in 1.13
-    * [`didReceiveAttrs`][another-two] landed in 1.13
-    * [`willRender`][another-two] landed in 1.13
-    * [`didRender`][another-two] landed in 1.13
-    * `valueDidChange`
-    * `disabledDidChange`
-  * [routeable components][run-up-to-two] are under active development, [it will probably land in 2.1 at the earliest][another-two]
-    * [multiple asynchronous attributes][another-two]
-    * [`attrs` hook][another-two]
 * controller
   * `Ember.Controller` should be used [only on route level][future-proof]
     * `Ember.ArrayController` is not deprecated, but [adwised to be replaced with `Ember.Controller`][future-proof]
@@ -99,6 +78,31 @@
   * https://github.com/ember-cli/ember-resolver
 * ember-testing
   * [introduced in RC3][1.0-rc4] (1.0 RC3)
+
+---
+
+## components
+
+* [use components for everything][future-proof]
+* angle bracket components [is likely to land in Ember 2.1][another-two]
+  * also named "angle-bracket components"
+  * [implemented in v1.13.0-beta.1](https://github.com/emberjs/ember.js/releases/tag/v1.13.0-beta.1)
+* attributes  
+  * [`this.attrs`][run-up-to-two] beginning with angle-bracket components
+* lifecycle hooks
+  * `didInsertElement`
+  * [`didUpdateElement`][run-up-to-two] landed in 1.13
+  * [`didUpdateAttrs`][another-two] landed in 1.13
+  * [`willUpdate`][another-two] landed in 1.13
+  * [`didUpdate`][another-two] landed in 1.13
+  * [`didReceiveAttrs`][another-two] landed in 1.13
+  * [`willRender`][another-two] landed in 1.13
+  * [`didRender`][another-two] landed in 1.13
+  * `valueDidChange`
+  * `disabledDidChange`
+* [routeable components][run-up-to-two] are under active development, [it will probably land in 2.1 at the earliest][another-two]
+  * [multiple asynchronous attributes][another-two]
+  * [`attrs` hook][another-two]
 
 ---
 
