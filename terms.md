@@ -108,6 +108,7 @@
 ## `Router`
 
 * [Use `this.route` instead of `this.resource` in `Router.map`][future-proof]
+  * [_Couple this with pods and you'll quickly understand why you don't want to use `resource` anymore - your directory structure in `pods` will now mirror the view hierarchy of your UI._][future-proof]
  
 ---
 
@@ -137,7 +138,10 @@
 
 ### controllers
 
-* `Ember.Controller` should be used [only on route level][future-proof]
+* `Ember.Controller`
+  * should be used [only on route level for receiving data from the route][future-proof]
+    * [fetch data in your route, and set it on `attrs` on your top-level controller][future-proof]
+      * at April 16, advice was changed to propose setting normal properties on controller and use `Ember.RSVP.hash`
   * `Ember.ArrayController` is not deprecated, but [adwised to be replaced with `Ember.Controller`][future-proof]
   * `Ember.ArrayController.itemController` is not deprecated, but [is not future proof][future-proof]
   * [`Ember.ObjectController` is deprecated](http://emberjs.com/deprecations/v1.x/#toc_objectcontroller)
