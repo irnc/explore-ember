@@ -14,6 +14,10 @@
   * [observers](http://guides.emberjs.com/v1.12.0/object-model/observers/)
     * `function(){}.observes()`
     * `Ember.observer()`
+  * `.get` function
+    * exists because Ember supported IE8 prior to Ember 2.0
+    * IE8 is only ES3 compatible, not ES5, so there is no `defineProperty`, thus the need for explicit `get` call
+    * [`get` can be deprecated after 2.0][preparing-for-2.0]
 * run loop
   * Ember.run.once
 * route
