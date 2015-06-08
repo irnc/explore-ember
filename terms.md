@@ -22,7 +22,9 @@
     * [block params][run-up-to-two]
     * [chained else][run-up-to-two]
   * helper
-    * [context-shifting helpers][another-two]
+    * context-switching form
+      * [don't use it][future-proof]
+    * [context-shifting helpers][another-two] should be replaced with
       * #with item as |i|
       * #each list as |item|
       * {{#each}}
