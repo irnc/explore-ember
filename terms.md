@@ -157,6 +157,7 @@
 
 ### controllers
 
+* [expected to be deprecated in 1.13][preparing-for-2.0], to be replaced by routeable components
 * `Ember.Controller`
   * should be used [only on route level for receiving data from the route][future-proof]
     * [fetch data in your route, and set it on `attrs` on your top-level controller][future-proof]
