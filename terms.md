@@ -70,6 +70,9 @@
     * [multiple asynchronous attributes][another-two]
     * [`attrs` hook][another-two]
 * controller
+  * `Ember.Controller` should be used [only on route level][future-proof]
+    * `Ember.ArrayController` is not deprecated, but [adwised to be replaced with `Ember.Controller`][future-proof]
+    * [`Ember.ObjectController` is deprecated](http://emberjs.com/deprecations/v1.x/#toc_objectcontroller)
   * controller has a property
   * [route-driven controllers][query-params]
   * [`queryParams`][query-params]
@@ -113,3 +116,4 @@
 [another-two]: http://emberjs.com/blog/2015/05/24/another-two-oh-status-update.html
 [ember-1.10.0]: http://emberjs.com/blog/2015/02/07/ember-1-10-0-released.html
 [1.0-rc4]: http://emberjs.com/blog/2013/05/28/ember-1-0-rc4.html
+[future-proof]: https://gist.github.com/samselikoff/1d7300ce59d216fdaf97
