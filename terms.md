@@ -76,12 +76,12 @@
   * options
     * what is the difference with arguments?
     * e.g. replace=true option on link-to helper
-  * component helper
+  * component helper, landed in 1.11
     * `{{component componentName}}`
-* bound attribute syntax, landed in 1.11
+* bound attribute syntax, [landed in 1.11][preparing-for-2.0]
   * now `<a href="{{url}}">` is preffered way instead of old `<a {{bind-attr href=documentUrl}}>`
-* [inline if][preparing-for-2.0]
-* [each with index][preparing-for-2.0]
+* [inline if][preparing-for-2.0], [landed in 1.11][preparing-for-2.0]
+* [each with index][preparing-for-2.0], [landed in 1.11][preparing-for-2.0]
   * `{{#each people as |person index|}}`
 * comments
   * `{{! Comment goes here }}`
@@ -123,7 +123,7 @@
 
 * [Use `this.route` instead of `this.resource` in `Router.map`][future-proof]
   * [_Couple this with pods and you'll quickly understand why you don't want to use `resource` anymore - your directory structure in `pods` will now mirror the view hierarchy of your UI._][future-proof]
-* named substates
+* named substates, [landed in 1.11][preparing-for-2.0]
  
 ---
 
