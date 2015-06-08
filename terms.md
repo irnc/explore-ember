@@ -50,6 +50,7 @@
 * controller
   * `Ember.Controller` should be used [only on route level][future-proof]
     * `Ember.ArrayController` is not deprecated, but [adwised to be replaced with `Ember.Controller`][future-proof]
+    * `Ember.ArrayController.itemController` is not deprecated, but [is not future proof][future-proof]
     * [`Ember.ObjectController` is deprecated](http://emberjs.com/deprecations/v1.x/#toc_objectcontroller)
   * controller has a property
   * [route-driven controllers][query-params]
