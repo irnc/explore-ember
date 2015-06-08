@@ -76,7 +76,7 @@
   * options
     * what is the difference with arguments?
     * e.g. replace=true option on link-to helper
-  * component helper, landed in 1.11
+  * component helper, [landed in 1.11][preparing-for-2.0]
     * `{{component componentName}}`
 * bound attribute syntax, [landed in 1.11][preparing-for-2.0]
   * now `<a href="{{url}}">` is preffered way instead of old `<a {{bind-attr href=documentUrl}}>`
