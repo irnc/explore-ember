@@ -131,7 +131,7 @@
 
 * [Use `this.route` instead of `this.resource` in `Router.map`][future-proof]
   * [_Couple this with pods and you'll quickly understand why you don't want to use `resource` anymore - your directory structure in `pods` will now mirror the view hierarchy of your UI._][future-proof]
-* named substates, [landed in 1.11][preparing-for-2.0]
+* [named substates](http://emberjs.com/blog/2015/03/27/ember-1-11-0-released.html#toc_named-substates), [landed in 1.11][preparing-for-2.0]
  
 ---
 
@@ -187,6 +187,7 @@
 [run-up-to-two]: http://emberjs.com/blog/2015/05/10/run-up-to-two-oh.html
 [another-two]: http://emberjs.com/blog/2015/05/24/another-two-oh-status-update.html
 [ember-1.10.0]: http://emberjs.com/blog/2015/02/07/ember-1-10-0-released.html
+[ember-1.11.0]: http://emberjs.com/blog/2015/03/27/ember-1-11-0-released.html
 [1.0-rc4]: http://emberjs.com/blog/2013/05/28/ember-1-0-rc4.html
 [future-proof]: https://gist.github.com/samselikoff/1d7300ce59d216fdaf97
 [preparing-for-2.0]: https://www.youtube.com/watch?v=wsydQzQF4Ww
