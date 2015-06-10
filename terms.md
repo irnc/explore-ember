@@ -132,6 +132,16 @@
 * [Use `this.route` instead of `this.resource` in `Router.map`][future-proof]
   * [_Couple this with pods and you'll quickly understand why you don't want to use `resource` anymore - your directory structure in `pods` will now mirror the view hierarchy of your UI._][future-proof]
 * [named substates](http://emberjs.com/blog/2015/03/27/ember-1-11-0-released.html#toc_named-substates), [landed in 1.11][preparing-for-2.0]
+* [loading and error substates](http://guides.emberjs.com/v1.12.0/routing/loading-and-error-substates/)
+  * [`error` event](http://emberjs.com/api/classes/Ember.Route.html#event_error)
+* `transition` object
+  * `Transition` class undocumented
+  * `#abort()`
+  * `#retry()`
+  * can be [stored for retry in future](http://guides.emberjs.com/v1.10.0/routing/preventing-and-retrying-transitions/)
+* Route
+  * `willTransition` hook
+  * `transitionTo`
  
 ---
 
