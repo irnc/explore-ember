@@ -144,6 +144,8 @@
 ## ember-cli
 * https://github.com/ember-cli/ember-cli
 * always [use Ember CLI][future-proof]
+* blueprints
+  * [addons using private npm modules](https://github.com/ember-cli/ember-cli/issues/4256)
 * options
   * [`storeConfigInMeta`](https://github.com/ember-cli/ember-cli/pull/2298) allows to get _equality between builds where only the config changes_.
 
