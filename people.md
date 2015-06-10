@@ -16,5 +16,8 @@
   * https://github.com/ef4
   * https://twitter.com/eaf4
   * `ember-browserify`
+* Robert Jackson
+ * https://github.com/rwjblue
+ * DockYard
 
 [1.0-rc4]: http://emberjs.com/blog/2013/05/28/ember-1-0-rc4.html
