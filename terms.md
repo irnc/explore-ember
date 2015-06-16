@@ -155,7 +155,7 @@
 
 * https://github.com/ember-cli/ember-cli
 * always [use Ember CLI][future-proof]
-* see [deps/ember-cli/terms.md]()
+* see [deps/ember-cli/terms.md](deps/ember-cli/terms.md)
 
 ---
 
