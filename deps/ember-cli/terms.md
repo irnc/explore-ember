@@ -42,6 +42,10 @@ Jackson describing how [ember-cli-super-number][] was converted to addon.
 [jj-addon-post]: http://hashrocket.com/blog/posts/building-ember-addons
 [ember-cli-super-number]: https://github.com/rondale-sc/ember-cli-super-number
 
+### Experience, `ember-pikaday`
+
+* http://edgycircle.com/blog/2014-creating-a-datepicker-ember-addon/
+
 ### Converting libraries to Ember CLI addons
 
 * https://gist.github.com/kristianmandrup/ae3174217f68a6a51ed5
