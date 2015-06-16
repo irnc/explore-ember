@@ -1,0 +1,5 @@
+# WebStorm is used to edit Markdown files, but there is no need to share
+# project files other than dictionaries for spell checking.
+
+.idea/*
+!.idea/dictionaries
