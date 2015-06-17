@@ -63,6 +63,7 @@
     * {{#each}}
       * can have matching {{else}}
   * block parameters
+    * http://emberjs.com/blog/2015/02/07/ember-1-10-0-released.html#toc_block-params
     * http://handlebarsjs.com/block_helpers.html#bloack-params
     * https://github.com/emberjs/rfcs/blob/master/complete/0002-block-params.md
   * is it a shorthand for "view helper"?
