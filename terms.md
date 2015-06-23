@@ -84,7 +84,7 @@
   * component helper, [landed in 1.11][preparing-for-2.0]
     * `{{component componentName}}`
 * bound attribute syntax, [landed in 1.11][preparing-for-2.0]
-  * now `<a href="{{url}}">` is preffered way instead of old `<a {{bind-attr href=documentUrl}}>`
+  * now `<a href="{{url}}">` is preferred way instead of old `<a {{bind-attr href=documentUrl}}>`
 * [inline if][preparing-for-2.0], [landed in 1.11][preparing-for-2.0]
 * [each with index][preparing-for-2.0], [landed in 1.11][preparing-for-2.0]
   * `{{#each people as |person index|}}`
