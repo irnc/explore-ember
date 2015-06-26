@@ -9,7 +9,7 @@
   * April 9, [RFC to encapsulate and make Registry private](https://github.com/emberjs/rfcs/pull/46) to Application
 * Ember.Object
   * computed property
-    * [improved syntax for computed propeties with a setter](http://emberjs.com/deprecations/v1.x/#toc_computed-properties-with-a-shared-getter-and-setter)
+    * [improved syntax for computed properties with a setter](http://emberjs.com/deprecations/v1.x/#toc_computed-properties-with-a-shared-getter-and-setter)
     * computed property's descriptor
   * [observers](http://guides.emberjs.com/v1.12.0/object-model/observers/)
     * `function(){}.observes()`
