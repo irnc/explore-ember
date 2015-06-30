@@ -12,5 +12,5 @@ Proper command flow should be:
 ```sh
 rm npm-shrinkwrap.json &&
 ember install ember-browserify &&
-npm shrinkwrap
+npm shrinkwrap --dev
 ```
