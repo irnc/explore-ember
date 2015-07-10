@@ -20,12 +20,19 @@
 
 * https://en.wikipedia.org/wiki/Event_loop
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+
+### Cocoa
+
 * https://developer.apple.com/library/prerelease/ios/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html
 * http://bou.io/RunRunLoopRun.html
 * http://blog.shinetech.com/2009/06/02/run-loops-vs-threads-in-cocoa/
 
-### AngularJS
+### AngularJS, JavaScript
 
 * http://stackoverflow.com/questions/14811084/angular-run-loop
 * https://www.ng-book.com/p/The-Digest-Loop-and-apply/
 * http://stackoverflow.com/questions/25177704/how-often-does-the-angularjs-digest-loop-run
+
+### Firebase, Java
+
+* https://www.firebase.com/docs/java-api/javadoc/com/firebase/client/RunLoop.html
