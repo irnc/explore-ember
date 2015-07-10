@@ -2,6 +2,14 @@
 * http://emberjs.com/api/classes/Ember.run.html
 * https://github.com/emberjs/ember.js/blob/master/packages/ember-metal/lib/run_loop.js
 * https://github.com/ebryn/backburner.js
+* https://github.com/eoinkelly/ember-runloop-handbook
+* http://talks.erikbryn.com/backburner.js-and-the-ember-run-loop/
+
+## Articles
+
+* http://ember.zone/a-50000-foot-overview-of-the-ember-js-run-loop/
+* http://alexmatchneer.com/blog/2013/01/12/everything-you-never-wanted-to-know-about-the-ember-run-loop/
+* http://www.programwitherik.com/why-you-should-care-about-the-ember-run-loop/
 
 ## Origin in Ember.js
 
