@@ -1,4 +1,5 @@
 * http://guides.emberjs.com/v1.12.0/understanding-ember/run-loop/
+* http://emberjs.com/api/classes/Ember.run.html
 * https://github.com/emberjs/ember.js/blob/master/packages/ember-metal/lib/run_loop.js
 * https://github.com/ebryn/backburner.js
 
