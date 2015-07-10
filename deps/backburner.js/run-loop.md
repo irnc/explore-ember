@@ -19,6 +19,7 @@
 ## Concept
 
 * https://en.wikipedia.org/wiki/Event_loop
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
 * https://developer.apple.com/library/prerelease/ios/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html
 * http://bou.io/RunRunLoopRun.html
 * http://blog.shinetech.com/2009/06/02/run-loops-vs-threads-in-cocoa/
