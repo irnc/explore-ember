@@ -3,6 +3,11 @@
 * https://github.com/emberjs/ember.js/blob/master/packages/ember-metal/lib/run_loop.js
 * https://github.com/ebryn/backburner.js
 
+## Origin in Ember.js
+
+* http://blog.sproutcore.com/the-run-loop-part-1/
+* http://blog.sproutcore.com/tag/run-loop/
+
 ## Concept
 
 * https://developer.apple.com/library/prerelease/ios/documentation/Cocoa/Conceptual/Multithreading/RunLoopManagement/RunLoopManagement.html
