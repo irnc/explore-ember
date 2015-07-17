@@ -15,3 +15,7 @@
 ## Testem
 
 * `testem.json`
+
+## See also
+
+* https://github.com/irnc/explore-tests/blob/master/ember-testing.md
