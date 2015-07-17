@@ -5,6 +5,7 @@
 * actions
   * return
     * [_To continue bubbling the action, you must return `true` from the handler_](http://guides.emberjs.com/v1.12.0/templates/actions/#toc_action-bubbling)
+  * see also [`action` helper](helpers/action.md)
 
 ## Terms
 
