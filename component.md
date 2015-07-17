@@ -3,6 +3,8 @@
 ## Ember.Component.extend
 
 * actions
+  * `this`
+    * [`getAttr`](http://discuss.emberjs.com/t/mut-keyword-with-angle-bracket-component-attributes/8034/2)
   * return
     * [_To continue bubbling the action, you must return `true` from the handler_](http://guides.emberjs.com/v1.12.0/templates/actions/#toc_action-bubbling)
   * see also [`action` helper](helpers/action.md)
