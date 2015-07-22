@@ -15,3 +15,9 @@
 
 * `singleton`
 * `instantiate`
+
+## `/app` directory
+
+### `./initializers`
+
+* initializers are loaded using [ember-load-initializers](https://github.com/ember-cli/ember-load-initializers)
