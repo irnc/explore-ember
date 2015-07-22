@@ -21,3 +21,4 @@
 ### `./initializers`
 
 * initializers are loaded using [ember-load-initializers](https://github.com/ember-cli/ember-load-initializers)
+* this module is loaded at https://github.com/ember-cli/ember-cli/blob/v1.13.1/lib/broccoli/ember-app.js#L268
