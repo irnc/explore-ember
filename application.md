@@ -41,3 +41,8 @@
 ### `#boot`
 
 * [boot()](https://github.com/emberjs/ember.js/blob/v1.13.5/packages/ember-application/lib/system/application.js#L580)
+* calls `this.runInitializers(this.registry)`
+
+### `#.runInitializers`
+
+* [runInitializers(registry)](https://github.com/emberjs/ember.js/blob/v1.13.5/packages/ember-application/lib/system/application.js#L680)
