@@ -21,6 +21,6 @@
 ### `./initializers`
 
 * initializers are loaded using [ember-load-initializers](https://github.com/ember-cli/ember-load-initializers)
-  * which calls `.initializer` or `.instanceInitializer` functions
+  * which calls `.initializer` or `.instanceInitializer` functions on passed `Application` constructor
 * bundling `ember-load-initializers` into a build happens on [ember-cli side](https://github.com/ember-cli/ember-cli/blob/v1.13.1/lib/broccoli/ember-app.js#L268)
 * loading initializers into an app at [app/app.js#L3](https://github.com/ember-cli/ember-cli/blob/v1.13.1/blueprints/app/files/app/app.js#L3)
