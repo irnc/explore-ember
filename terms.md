@@ -4,9 +4,6 @@
   * query string
 * convention over configuration
   * [Ember philosophy](http://www.ember-cli.com/#addon-conventions)
-* application
-  * [Registry](https://github.com/emberjs/ember.js/pull/9981)
-  * April 9, [RFC to encapsulate and make Registry private](https://github.com/emberjs/rfcs/pull/46) to Application
 * Ember.Object
   * computed property
     * [improved syntax for computed properties with a setter](http://emberjs.com/deprecations/v1.x/#toc_computed-properties-with-a-shared-getter-and-setter)
