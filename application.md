@@ -35,3 +35,9 @@
 ### Best practices on initializers
 
 * https://github.com/emberjs/ember.js/issues/4280#issuecomment-48088291
+
+## Internals
+
+### `#boot`
+
+* [boot()](https://github.com/emberjs/ember.js/blob/v1.13.5/packages/ember-application/lib/system/application.js#L580)
