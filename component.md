@@ -43,3 +43,8 @@
 [run-up-to-two]: http://emberjs.com/blog/2015/05/10/run-up-to-two-oh.html
 [future-proof]: https://gist.github.com/samselikoff/1d7300ce59d216fdaf97
 [another-two]: http://emberjs.com/blog/2015/05/24/another-two-oh-status-update.html
+
+## actions
+
+- http://emberjs.com/blog/2015/06/12/ember-1-13-0-released.html#toc_closure-actions
+- https://dockyard.com/blog/2015/10/29/ember-best-practice-stop-bubbling-and-use-closure-actions 
