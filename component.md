@@ -21,17 +21,6 @@
 * attributes  
   * [`this.attrs`][run-up-to-two] beginning with angle-bracket components
   * was introduced to split data coming into a component and internal state modifieble by component
-* lifecycle hooks
-  * `didInsertElement`
-  * [`didUpdateElement`][run-up-to-two] landed in 1.13
-  * [`didUpdateAttrs`][another-two] landed in 1.13
-  * [`willUpdate`][another-two] landed in 1.13
-  * [`didUpdate`][another-two] landed in 1.13
-  * [`didReceiveAttrs`][another-two] landed in 1.13
-  * [`willRender`][another-two] landed in 1.13
-  * [`didRender`][another-two] landed in 1.13
-  * `valueDidChange`
-  * `disabledDidChange`
 * [routeable components][run-up-to-two] are under active development, [it will probably land in 2.1 at the earliest][another-two]
   * aka, "routable components"
   * [multiple asynchronous attributes][another-two]
@@ -43,3 +32,37 @@
 [run-up-to-two]: http://emberjs.com/blog/2015/05/10/run-up-to-two-oh.html
 [future-proof]: https://gist.github.com/samselikoff/1d7300ce59d216fdaf97
 [another-two]: http://emberjs.com/blog/2015/05/24/another-two-oh-status-update.html
+
+## Attrbiute
+
+Component receives attrbitures.
+
+```hbs
+{{component-name first-attribute=property second-attribute="value"}}
+```
+
+See `didReceiveAttrs` lifecycle hook.
+
+## Lifecycle hook
+
+Lifecycle hook is [fired on component](http://emberjs.com/blog/2015/05/24/another-two-oh-status-update.html#toc_new-lifecycle-hooks).
+
+Known lifecycle hooks:
+
+- `didInsertElement`
+- [`didUpdateElement`][run-up-to-two] landed in 1.13
+- [`didUpdateAttrs`][another-two] landed in 1.13
+- [`willUpdate`][another-two] landed in 1.13
+- [`didUpdate`][another-two] landed in 1.13
+- [`didReceiveAttrs`][another-two] landed in 1.13
+- [`willRender`][another-two] landed in 1.13
+- [`didRender`][another-two] landed in 1.13
+- `valueDidChange`
+- `disabledDidChange`
+
+Is seams that lifecycle hook is actually an event.
+
+Listening on events:
+
+- http://emberjs.com/api/classes/Function.html#method_on
+- http://emberjs.com/api/classes/Ember.html#method_on

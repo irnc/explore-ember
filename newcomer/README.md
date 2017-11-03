@@ -1,0 +1,2 @@
+- Understand the run loop and why it is needed.
+  - http://guides.emberjs.com/v2.1.0/applications/run-loop/
